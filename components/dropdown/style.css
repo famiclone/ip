@@ -1,0 +1,43 @@
+.nav-list {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin-right: 1rem;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: black;
+}
+
+.dropdown-icon {
+  font-size: 10px;
+  display: inline-block;
+}
+
+.dropdown.open .dropdown-list {
+  visibility: visible;
+  opacity: 1;
+}
+
+.dropdown.open .dropdown-icon {
+  transform: scale(1, -1) translateY(3px);
+}
+
+.dropdown-list {
+  margin-top: 0.5rem;
+  transition: 0.3s;
+  visibility: hidden;
+  opacity: 0;
+  padding: 0.25rem;
+  list-style: none;
+  border: 1px solid gray;
+}
+
+.dropdown-item {
+  margin: 0.5em;
+}
