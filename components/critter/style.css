@@ -1,0 +1,58 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  background-color: lightgray;
+}
+
+.page-header {
+  background-color: rgb(132, 158, 112);
+  padding: 1rem;
+  color: white;
+  position: fixed;
+  width: 100%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+main {
+  padding-top: 5rem;
+  max-width: 540px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #fff;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.post-header {
+  display: flex;
+}
+
+.muted {
+  color: gray;
+}
+
+.user-avatar {
+  overflow: hidden;
+  border-radius: 50%;
+  grid-column: 1;
+  aspect-ratio: 1/1;
+}
+
+.user-avatar img {
+  height: 100%;
+  background-size: cover;
+}
+
+.post-body {
+  grid-column: span 11;
+  padding-left: 1rem;
+}

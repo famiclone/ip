@@ -12,7 +12,7 @@ template.innerHTML = `
         </div>
 
         <footer class="modal-footer">
-          <button class="button">Cancel</button>
+          <button class="button" id="cancelBtn">Cancel</button>
           <button class="button button--action">Delete</button>
         </footer>
       </div>
@@ -57,6 +57,12 @@ style.textContent = `
   .modal-body {
     padding: 2rem 0.5rem;
   }
+
+  @media (max-width: 450px) {
+    .modal-container {
+      
+    }
+  }
 `;
 
 customElements.define(
@@ -68,6 +74,19 @@ customElements.define(
       console.log(shadow);
 
       this.shadowRoot.append(style, template.cloneNode(true));
+
+      const bg = this.shadowRoot.querySelector('.modal-bg');
+      const cancelBtn = this.shadowRoot.querySelector('#cancelBtn');
+
+      console.log(bg);
+
+      cancelBtn.addEventListener('click', (e) => {
+        document.body.removeChild(document.querySelector('confirmation-modal'));
+      });
+
+      bg.addEventListener('click', (e) => {
+        document.body.removeChild(document.querySelector('confirmation-modal'));
+      });
     }
   },
 );

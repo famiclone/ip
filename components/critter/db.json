@@ -1,0 +1,64 @@
+{
+  "feed": [
+    {
+      "created_at": "Thu Oct 26 2017 07:32:49 GMT-0700 (PDT)",
+      "text": "Getting tired of nobody being afraid of me!! I'm a dragon that flies! Why don't people get it?! #dragonflyawarenessmonth",
+      "user": {
+        "id": "SyJjSDLlf",
+        "username": "pinky",
+        "avatar": "https://www.acefrontend.com/c/critter/avatar-pinky.png"
+      },
+      "likes": 2
+    },
+    {
+      "created_at": "Thu Oct 26 2017 07:12:55 GMT-0700 (PDT)",
+      "text": "Anyone know where I can buy some 80 lens glasses frames??? #bugeyeproblems",
+      "user": {
+        "id": "BJekorwIxM",
+        "username": "eye_leen",
+        "avatar": "https://www.acefrontend.com/c/critter/avatar-eye_leen.png"
+      },
+      "likes": 827
+    },
+    {
+      "created_at": "Thu Oct 26 2017 04:43:09 GMT-0700 (PDT)",
+      "text": "they're good bugs @steve",
+      "user": {
+        "id": "r1M1jHwLgG",
+        "username": "we_rate_bugs",
+        "avatar": "https://www.acefrontend.com/c/critter/avatar-we_rate_bugs.png"
+      },
+      "likes": 23
+    },
+    {
+      "created_at": "Thu Oct 25 2017 04:43:09 GMT-0700 (PDT)",
+      "text": "omg been here all morning. Still 12-millionth in line at the DMZZZZZZZZZZZZZZ",
+      "user": {
+        "id": "rkbyirPUxf",
+        "username": "dark_lord",
+        "avatar": "https://www.acefrontend.com/c/critter/avatar-dark_lord.png"
+      },
+      "likes": 917
+    },
+    {
+      "created_at": "Thu Oct 25 2017 03:43:09 GMT-0700 (PDT)",
+      "text": "why does @we_rate_bugs rate all the bugs 11/10?! It doesnt make any sense.",
+      "user": {
+        "id": "Bk71sHwUeM",
+        "username": "steve",
+        "avatar": "https://www.acefrontend.com/c/critter/avatar-steve.png"
+      },
+      "likes": 128
+    },
+    {
+      "created_at": "Thu Oct 25 2017 02:43:09 GMT-0700 (PDT)",
+      "text": "just released a new makeup tutorial on BugTube! Plz check it out and dont forget to like and subscribe :)",
+      "user": {
+        "id": "H14ysrvLxG",
+        "username": "vee_dub",
+        "avatar": "https://www.acefrontend.com/c/critter/avatar-vee_dub.png"
+      },
+      "likes": 346
+    }
+  ]
+}
