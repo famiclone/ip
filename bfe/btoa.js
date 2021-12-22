@@ -22,10 +22,6 @@ function myBtoa(input) {
       encoded4 = 64;
     }
 
-    console.dir({
-      char1:
-    })
-
     const s = `${base64chars.charAt(encoded1)}${base64chars.charAt(
       encoded2,
     )}${base64chars.charAt(encoded3)}${base64chars.charAt(encoded4)}`;
