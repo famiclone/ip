@@ -12,8 +12,6 @@ var isPalindrome = function (num) {
     x = parseInt(x / 10);
 
     reversed = reversed * 10 + remainder;
-
-    console.log({ remainder, x, reversed });
   }
 
   if (num === reversed || num === reversed / 10) {
