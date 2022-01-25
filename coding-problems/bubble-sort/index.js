@@ -10,8 +10,6 @@ function bubbleSort(arr) {
     }
   }
 
-  console.log(arr);
-
   return arr;
 }
 
