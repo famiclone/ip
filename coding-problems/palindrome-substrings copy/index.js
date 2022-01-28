@@ -4,13 +4,18 @@
  * @return {number[]}
  */
 var twoSum = function (nums, target) {
+  const cache = {};
   for (let i = 0; i < nums.length; i++) {
-    for (let j = i + 1; j < nums.length; j++) {
-      if (nums[i] + nums[j] === target) {
-        return [i, j];
-      }
+    const x = target - nums[i];
+
+    if (cache[x] !== undefined) {
+      return [cache[x], i];
     }
+
+    cache[nums[i]] = i;
   }
+
+  return null;
 };
 
 module.exports = twoSum;
