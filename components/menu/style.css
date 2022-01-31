@@ -32,6 +32,7 @@ body {
   border-bottom: 1px solid var(--border-grey);
 }
 
+.menu__main__item--active,
 .menu__main__item:hover {
   background: white;
   border-bottom: none;
