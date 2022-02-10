@@ -16,7 +16,14 @@ class LinkedList {
   }
 
   setLast(data) {
-    this.getLast().next = new ListNode(data);
+    const last = this.getLast();
+
+    if (last) {
+      last.next = new ListNode(data);
+      return false;
+    }
+
+    this.setFirst(data);
   }
 
   size() {
