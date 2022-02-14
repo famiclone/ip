@@ -5,7 +5,7 @@ function add(a, b) {
 function spy(f) {
   function wrap(...args) {
     wrap.calls.push(args);
-    return f(...args);
+    return f.call(this, ...args);
   }
 
   wrap.calls = [];
@@ -15,7 +15,7 @@ function spy(f) {
 
 add = spy(add);
 
-add(11, 7);
 add(2, 7);
+add(11, 7);
 
-add.calls;
+add.calls; // [[2, 7], [11, 7]]
